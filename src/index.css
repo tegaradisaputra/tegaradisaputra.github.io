@@ -30,4 +30,9 @@
   --color-code-blue: #79b8ff;
   --color-code-purple: #c792ea;
   --color-code-muted: #6b6456;
+
+  /* Font families */
+  --font-family-serif: 'DM Serif Display', serif;
+  --font-family-mono: 'DM Mono', monospace;
+  --font-family-sans: 'Epilogue', sans-serif;
 }
