@@ -64,9 +64,9 @@ export default function Header() {
       </button>
 
       {/* Mobile Navigation Overlay */}
-      <div className={`fixed inset-0 bg-background z-[60] flex flex-col items-center justify-center gap-8 transition-transform duration-300 ease-in-out lg:hidden ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+      <div className={`fixed inset-0 bg-black/80 backdrop-blur-sm z-[60] flex flex-col items-center justify-center gap-8 transition-opacity duration-300 ease-in-out lg:hidden ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
         <button 
-          className="absolute top-6 right-6 text-text-muted"
+          className="absolute top-4 right-4 text-white"
           onClick={() => setIsMenuOpen(false)}
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -77,7 +77,7 @@ export default function Header() {
           <button
             key={item.id}
             onClick={() => scrollToSection(item.id)}
-            className="text-2xl font-medium text-text-muted hover:text-accent transition-colors duration-300"
+            className="text-2xl font-medium text-white hover:text-accent transition-colors duration-300"
           >
             {item.label}
           </button>
