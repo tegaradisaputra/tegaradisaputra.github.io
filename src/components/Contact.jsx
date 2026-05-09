@@ -31,11 +31,11 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen w-full bg-[#0f0b08] text-white px-6 md:px-16 lg:px-24 py-16"
+      className="min-h-screen w-full bg-[#0f0b08] text-white px-6 md:px-12 lg:px-28 py-16 md:py-24"
     >
       <div className="grid lg:grid-cols-2 gap-10 items-start max-w-7xl mx-auto">
         <div>
-          <h1 className="text-5xl md:text-7xl leading-[0.9] font-serif font-semibold tracking-tight">
+          <h1 className="text-4xl md:text-7xl leading-[1.1] md:leading-[0.9] font-serif font-semibold tracking-tight">
             Siap untuk <br />
             belajar & <br />
             <span className="text-orange-500 italic font-medium">
@@ -43,7 +43,7 @@ export default function Contact() {
             </span>
           </h1>
 
-          <p className="mt-10 text-lg text-zinc-400 leading-relaxed max-w-2xl">
+          <p className="mt-6 md:mt-10 text-base md:text-lg text-zinc-400 leading-relaxed max-w-2xl">
             Saya adalah siswa yang sedang mempersiapkan diri untuk prakerin
             dengan fokus pada backend development. Portfolio ini menjadi
             representasi perjalanan belajar, project, dan kesiapan saya untuk
@@ -86,27 +86,27 @@ export default function Contact() {
             </p>
 
             <div className="space-y-5 text-sm">
-              <div className="flex justify-between gap-4">
+              <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-1 sm:gap-4">
                 <span className="text-zinc-500">availability</span>
                 <span className="text-emerald-500">● Open for PKL / Prakerin</span>
               </div>
 
-              <div className="flex justify-between gap-4">
+              <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-1 sm:gap-4">
                 <span className="text-zinc-500">current_focus</span>
                 <span className="text-orange-500">Learning & Skill Growth</span>
               </div>
 
-              <div className="flex justify-between gap-4">
+              <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-1 sm:gap-4">
                 <span className="text-zinc-500">location</span>
                 <span>Yogyakarta, ID</span>
               </div>
 
-              <div className="flex justify-between gap-4">
+              <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-1 sm:gap-4">
                 <span className="text-zinc-500">interest</span>
                 <span>Backend Development</span>
               </div>
 
-              <div className="flex justify-between gap-4">
+              <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-1 sm:gap-4">
                 <span className="text-zinc-500">goal</span>
                 <span>Prakerin Experience</span>
               </div>

@@ -52,7 +52,7 @@ export default function Growth() {
   };
 
   return (
-    <section id="growth" className="w-full bg-[#f5f1e8] px-6 py-16 md:px-16 lg:px-24 text-[#1d1b19]">
+    <section id="growth" className="w-full bg-[#f5f1e8] px-6 md:px-12 lg:px-28 py-16 md:py-24 text-[#1d1b19]">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center gap-4 mb-16">
           <span className="text-xs tracking-[0.35em] uppercase text-[#d46a3a] font-medium">
@@ -67,27 +67,27 @@ export default function Growth() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div className="flex flex-col justify-between">
             <div>
-              <h2 className="text-5xl md:text-6xl font-serif font-semibold leading-[1.05] tracking-tight max-w-xl">
+              <h2 className="text-3xl md:text-6xl font-serif font-semibold leading-[1.05] tracking-tight max-w-xl">
                 Junior yang tahu
-                <br />
+                <br className="hidden md:block" />
                 apa yang belum
-                <br />
+                <br className="hidden md:block" />
                 <span className="italic text-[#d46a3a] font-medium">
                   dia tahu.
                 </span>
               </h2>
 
-              <p className="mt-10 text-lg text-neutral-700 leading-relaxed max-w-xl">
+              <p className="mt-6 md:mt-10 text-base md:text-lg text-neutral-700 leading-relaxed max-w-xl">
                 Saya percaya bahwa developer yang baik adalah yang jujur soal
                 gap skill-nya. Ini adalah roadmap belajar saya saat ini –
                 transparan dan terus bergerak maju.
               </p>
             </div>
 
-            <div className="mt-14 border border-neutral-300 rounded-xl p-6 bg-[#f8f4ec] max-w-2xl">
+            <div className="mt-10 md:mt-14 border border-neutral-300 rounded-xl p-6 bg-[#f8f4ec] max-w-2xl">
               <div className="flex gap-4">
-                <span className="text-2xl">🎯</span>
-                <p className="text-base leading-relaxed text-neutral-800">
+                <span className="text-xl md:text-2xl">🎯</span>
+                <p className="text-sm md:text-base leading-relaxed text-neutral-800">
                   Target saya dalam 6 bulan - 1 tahun ke depan: membangun aplikasi fullstack
                   yang solid dengan Laravel + React.js, memahami JavaScript lebih
                   dalam untuk frontend modern, menggunakan Docker untuk workflow
@@ -111,10 +111,10 @@ export default function Growth() {
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-semibold tracking-tight">
+                  <h3 className="text-xl md:text-2xl font-semibold tracking-tight">
                     {item.title}
                   </h3>
-                  <p className="mt-1 text-neutral-500 text-base leading-relaxed">
+                  <p className="mt-1 text-neutral-500 text-sm md:text-base leading-relaxed">
                     {item.desc}
                   </p>
                 </div>
