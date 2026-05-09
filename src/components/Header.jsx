@@ -4,6 +4,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navItems = [
+    { label: 'HOME', id: 'hero' },
     { label: 'ABOUT', id: 'about' },
     { label: 'HOW I WORK', id: 'how-i-work' },
     { label: 'PROJECT', id: 'project' },

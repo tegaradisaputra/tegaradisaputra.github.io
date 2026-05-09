@@ -12,7 +12,7 @@ export default function Projects() {
       </div>
 
       <div className="max-w-4xl">
-        <h2 className="font-family-serif text-4xl md:text-6xl lg:text-7xl leading-tight font-medium text-text-primary">
+        <h2 className="font-family-serif text-3xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight font-medium text-text-primary">
           Dua project, <br className="hidden md:block" />
           satu standar kode.
         </h2>

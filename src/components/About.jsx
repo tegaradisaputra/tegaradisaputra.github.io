@@ -13,9 +13,9 @@ export default function About() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
             <div className="flex flex-col">
-              <h3 className='font-family-serif font-medium text-3xl md:text-5xl max-w-md'>Junior yang paham cara kerja sistem yang <span className='text-accent'>benar</span></h3>
+              <h3 className='font-family-serif font-medium text-2xl md:text-4xl lg:text-5xl max-w-md leading-tight'>Junior yang paham cara kerja sistem yang <span className='text-accent'>benar</span></h3>
 
-              <p className='mt-6 md:mt-10 max-w-2xl'>
+              <p className='mt-4 md:mt-6 lg:mt-10 max-w-2xl leading-relaxed text-sm md:text-base'>
                 Saya <span className='font-bold'>Tegar Adi Saputra</span>, backend developer fresh dari Yogyakarta. Saya berfokus membangun sistem yang <span className='font-bold'>kuat, efisien, dan scalable</span>. Saya banyak bekerja dengan <span className='font-bold'>PHP, Laravel, database management, RESTful API, authentication flow</span>, serta <span className='font-bold'>logika bisnis</span> yang menjadi fondasi utama sebuah aplikasi.
                 Bagi saya, backend bukan sekadar membuat fitur berjalan, tetapi tentang <span className="font-bold">bagaimana</span> merancang arsitektur yang <span className="font-bold">clean, maintainable</span>, dan siap <span className="font-bold">berkembang</span> seiring kebutuhan sistem. Saya tertarik pada <span className='font-bold'>problem solving, optimasi performa, keamanan</span>, serta bagaimana sebuah sistem dapat menangani proses secara <span className='font-bold'>stabil</span> dan <span className='font-bold'>terstruktur</span>.
               </p>
