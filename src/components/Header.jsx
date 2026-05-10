@@ -131,10 +131,10 @@ export default function Header() {
           <div className="p-8 bg-background-secondary/50 border-t border-border">
             <p className="text-sm text-text-muted mb-4 uppercase tracking-widest font-semibold">Hubungi Saya</p>
             <a 
-              href="mailto:contact@tegar.dev" 
+              href="mailto:contact@tegaradisaputra537" 
               className="text-text font-medium hover:text-accent transition-colors block mb-2"
             >
-              contact@tegar.dev
+              contact@tegaradisaputra537
             </a>
             <div className="flex gap-4 mt-6">
               <div className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-accent hover:border-accent hover:text-white transition-all duration-300 cursor-pointer">
