@@ -13,7 +13,7 @@ export default function Hero() {
 
               <h2 className='text-3xl md:text-5xl lg:text-7xl xl:text-8xl font-medium font-family-serif max-w-5xl leading-tight'>Membangun <span className='text-accent'>Backend</span> yang <span className='text-code-muted'>Tangguh & Terstruktur</span></h2>
 
-              <p className='text-sm md:text-base lg:text-lg text-text font-family-sans max-w-2xl mt-5 leading-relaxed'>Backend developer dengan fokus pada <span className='font-bold'>PHP Laravel </span>dan <span className='font-bold'>MySQL</span>. Saya tidak hanya menulis kode yang bekerja — saya menulis kode yang mudah dibaca, di-maintain, dan di-scale, menggunakan pattern yang proven.</p>
+              <p className='text-sm md:text-base lg:text-lg text-text font-family-sans max-w-2xl mt-5 leading-relaxed'>Pengembang backend dengan fokus pada <span className='font-bold'>PHP Laravel </span>dan <span className='font-bold'>MySQL</span>. Saya tidak hanya menulis kode yang berfungsi — saya menulis kode yang mudah dibaca, dipelihara, dan diskalakan, menggunakan pola yang telah teruji.</p>
             </div>
 
             <div className="w-full lg:max-w-3xl rounded-3xl overflow-hidden shadow-2xl border border-[#2a221c] bg-[#14110f]">

@@ -129,7 +129,7 @@ export default function Header() {
 
           {/* Drawer Footer */}
           <div className="p-8 bg-background-secondary/50 border-t border-border">
-            <p className="text-sm text-text-muted mb-4 uppercase tracking-widest font-semibold">Get in Touch</p>
+            <p className="text-sm text-text-muted mb-4 uppercase tracking-widest font-semibold">Hubungi Saya</p>
             <a 
               href="mailto:contact@tegar.dev" 
               className="text-text font-medium hover:text-accent transition-colors block mb-2"

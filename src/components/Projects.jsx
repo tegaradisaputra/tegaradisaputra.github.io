@@ -13,12 +13,12 @@ export default function Projects() {
 
       <div className="max-w-4xl">
         <h2 className="font-family-serif text-3xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight font-medium text-text-primary">
-          Dua project, <br className="hidden md:block" />
+          Dua proyek, <br className="hidden md:block" />
           satu standar kode.
         </h2>
 
         <p className="mt-8 text-lg text-text-muted leading-relaxed">
-          Klik project untuk melihat detail implementasi dan cuplikan kode nyata.
+          Klik proyek untuk melihat detail implementasi dan cuplikan kode nyata.
         </p>
       </div>
 
@@ -44,9 +44,9 @@ export default function Projects() {
 
           <p className="mt-4 text-base md:text-lg text-text-muted leading-relaxed max-w-3xl">
             Backend sistem pengajuan pembiayaan berbasis REST API untuk simulasi kompetisi
-            LKS 2026. Mencakup autentikasi user, verifikasi bisnis, pengajuan financing,
-            installment management, application logs, serta arsitektur modular berbasis
-            Controller, Service, dan Resource API untuk menjaga scalability dan maintainability.
+            LKS 2026. Mencakup autentikasi pengguna, verifikasi bisnis, pengajuan pembiayaan,
+            pengelolaan angsuran, log aplikasi, serta arsitektur modular berbasis
+            Controller, Service, dan Resource API untuk menjaga skalabilitas dan pemeliharaan.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -109,9 +109,9 @@ export default function Projects() {
             Sistem manajemen data karyawan berbasis Laravel dan Livewire dengan
             implementasi CRUD dinamis tanpa reload halaman. Mencakup employee records
             management, real-time form interaction, validation, dashboard admin, serta
-            integrasi server-driven UI untuk workflow yang lebih responsif. Project ini
-            menekankan fundamental fullstack Laravel ecosystem melalui Blade, Livewire,
-            dan relational database architecture.
+            integrasi server-driven UI untuk alur kerja yang lebih responsif. Proyek ini
+            menekankan fundamental ekosistem fullstack Laravel melalui Blade, Livewire,
+            dan arsitektur database relasional.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">

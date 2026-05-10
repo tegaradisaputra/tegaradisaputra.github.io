@@ -21,11 +21,11 @@ export default function Contact() {
   ];
 
   const fitPoints = [
-    "Sedang fokus memperkuat Laravel, REST API, dan backend fundamentals",
-    "Aktif belajar JavaScript, React, Docker, dan software testing",
-    "Terbiasa membangun project sebagai proses belajar & pengembangan skill",
-    "Siap menerima arahan mentor, evaluasi, dan feedback teknis",
-    "Mencari lingkungan prakerin yang mendukung growth, disiplin, dan pengalaman nyata",
+    "Sedang fokus memperkuat Laravel, REST API, dan fundamental backend",
+    "Aktif belajar JavaScript, React, Docker, dan pengujian perangkat lunak (testing)",
+    "Terbiasa membangun proyek sebagai proses belajar dan pengembangan keahlian",
+    "Siap menerima arahan mentor, evaluasi, dan umpan balik teknis",
+    "Mencari lingkungan prakerin yang mendukung pertumbuhan, disiplin, dan pengalaman nyata",
   ];
 
   return (
@@ -45,8 +45,8 @@ export default function Contact() {
 
           <p className="mt-6 md:mt-10 text-base md:text-lg text-zinc-400 leading-relaxed max-w-2xl">
             Saya adalah siswa yang sedang mempersiapkan diri untuk prakerin
-            dengan fokus pada backend development. Portfolio ini menjadi
-            representasi perjalanan belajar, project, dan kesiapan saya untuk
+            dengan fokus pada pengembangan backend. Portofolio ini menjadi
+            representasi perjalanan belajar, proyek, dan kesiapan saya untuk
             mendapatkan pengalaman nyata di lingkungan kerja profesional sambil
             terus berkembang secara teknis maupun pola pikir.
           </p>

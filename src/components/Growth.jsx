@@ -64,13 +64,13 @@ export default function Growth() {
           <div className="h-px flex-1 bg-neutral-300" />
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           <div className="flex flex-col justify-between">
             <div>
-              <h2 className="text-3xl md:text-6xl font-serif font-semibold leading-[1.05] tracking-tight max-w-xl">
-                Junior yang tahu
+              <h2 className="text-3xl md:text-6xl font-serif font-semibold leading-[1.1] tracking-tight max-w-xl">
+                Junior yang tahu{" "}
                 <br className="hidden md:block" />
-                apa yang belum
+                apa yang belum{" "}
                 <br className="hidden md:block" />
                 <span className="italic text-[#d46a3a] font-medium">
                   dia tahu.
@@ -78,8 +78,8 @@ export default function Growth() {
               </h2>
 
               <p className="mt-6 md:mt-10 text-base md:text-lg text-neutral-700 leading-relaxed max-w-xl">
-                Saya percaya bahwa developer yang baik adalah yang jujur soal
-                gap skill-nya. Ini adalah roadmap belajar saya saat ini –
+                Saya percaya bahwa developer yang baik adalah yang jujur mengenai
+                celah keahliannya. Ini adalah peta jalan belajar saya saat ini –
                 transparan dan terus bergerak maju.
               </p>
             </div>
@@ -90,9 +90,9 @@ export default function Growth() {
                 <p className="text-sm md:text-base leading-relaxed text-neutral-800">
                   Target saya dalam 6 bulan - 1 tahun ke depan: membangun aplikasi fullstack
                   yang solid dengan Laravel + React.js, memahami JavaScript lebih
-                  dalam untuk frontend modern, menggunakan Docker untuk workflow
-                  development yang rapi, dan menulis testing yang konsisten agar
-                  aplikasi lebih scalable serta production-ready.
+                  dalam untuk frontend modern, menggunakan Docker untuk alur kerja
+                  pengembangan yang rapi, dan menulis pengujian yang konsisten agar
+                  aplikasi lebih skalabel serta siap produksi.
                 </p>
               </div>
             </div>

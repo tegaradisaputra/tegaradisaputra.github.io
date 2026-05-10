@@ -14,46 +14,46 @@ export default function HowToWork() {
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 lg:gap-20">
             <h3 className='font-family-serif font-medium max-w-xl text-3xl md:text-5xl lg:text-6xl leading-tight'>Cara saya bekerja, bukan hanya apa yang saya <span className='text-accent'>bisa.</span></h3>
 
-            <p className='font-family-sans max-w-xl text-text text-sm md:text-base'>Skill bisa dipelajari — tapi kebiasaan kerja yang baik itu yang membuat developer berdampak di tim. Ini adalah proses dan nilai yang saya bawa ke setiap pekerjaan.</p>
+            <p className='font-family-sans max-w-xl text-text text-sm md:text-base'>Keahlian dapat dipelajari — tetapi kebiasaan kerja yang baik adalah hal yang membuat pengembang memberikan dampak nyata bagi tim. Ini adalah proses dan nilai yang saya bawa ke setiap pekerjaan.</p>
           </div>
 
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-            <div className="card mt-12 lg:mt-24 border-2 grid justify-start items-center border-background-secondary bg-surface w-full p-6 md:p-8 rounded-lg hover:bg-accent-soft/90">
-              <span className='text-background-secondary font-family-serif text-4xl md:text-6xl italic font-medium'>01</span>
-              <h3 className='mt-4 font-bold font-family-sans'>Pahami dulu</h3>
-              <p className='mt-2 text-text-muted text-sm'>
-                Sebelum nulis satu baris kode, saya baca requirement sampai benar-benar paham. Kalau ada yang ambigu, saya tanya — bukan asumsikan.
+            <div className="card mt-12 lg:mt-24 border-2 grid justify-start items-center border-border/50 bg-surface w-full p-6 md:p-8 rounded-2xl hover:bg-accent-soft/90 transition-all duration-300">
+              <span className='text-border font-family-serif text-4xl md:text-6xl italic font-medium'>01</span>
+              <h3 className='mt-4 font-bold font-family-sans text-lg'>Pahami Terlebih Dahulu</h3>
+              <p className='mt-2 text-text-muted text-sm leading-relaxed'>
+                Sebelum menulis satu baris kode, saya membaca persyaratan hingga benar-benar paham. Jika ada yang ambigu, saya akan bertanya — bukan berasumsi.
               </p>
-              <p className='mt-4 bg-accent-soft px-4 py-2 border-2 flex justify-center items-center  border-accent/20 text-accent font-medium rounded-full text-xs'>Baca · Tanya · Konfirmasi</p>
+              <p className='mt-6 bg-accent-soft px-4 py-2 border border-accent/20 text-accent font-medium rounded-full text-[10px] uppercase tracking-wider w-fit'>Baca · Tanya · Konfirmasi</p>
             </div>
 
-            <div className="card mt-0 md:mt-12 lg:mt-24 border-2 grid justify-start items-center border-background-secondary bg-surface w-full p-6 md:p-8 rounded-lg hover:bg-accent-soft/90">
-              <span className='text-background-secondary font-family-serif text-4xl md:text-6xl italic font-medium'>02</span>
-              <h3 className='mt-4 font-bold font-family-sans'>Rancang Struktur</h3>
-              <p className='mt-2 text-text-muted text-sm'>
-                Sketsa struktur folder, endpoint, dan relasi database sebelum mulai coding. Lebih mudah ubah di kertas daripada di kode.
+            <div className="card mt-0 md:mt-12 lg:mt-24 border-2 grid justify-start items-center border-border/50 bg-surface w-full p-6 md:p-8 rounded-2xl hover:bg-accent-soft/90 transition-all duration-300">
+              <span className='text-border font-family-serif text-4xl md:text-6xl italic font-medium'>02</span>
+              <h3 className='mt-4 font-bold font-family-sans text-lg'>Rancang Struktur</h3>
+              <p className='mt-2 text-text-muted text-sm leading-relaxed'>
+                Membuat sketsa struktur folder, endpoint, dan relasi database sebelum mulai melakukan pengodean. Lebih mudah mengubah di kertas daripada di dalam kode.
               </p>
-              <p className='mt-4 bg-accent-soft px-4 py-2 border-2 flex justify-center items-center  border-accent/20 text-accent font-medium rounded-full text-xs'>ERD · API Contract · Folder</p>
+              <p className='mt-6 bg-accent-soft px-4 py-2 border border-accent/20 text-accent font-medium rounded-full text-[10px] uppercase tracking-wider w-fit'>ERD · API Contract · Folder</p>
             </div>
 
-            <div className="card mt-0 md:mt-12 lg:mt-24 border-2 grid justify-start items-center border-background-secondary bg-surface w-full p-6 md:p-8 rounded-lg hover:bg-accent-soft/90">
-              <span className='text-background-secondary font-family-serif text-4xl md:text-6xl italic font-medium'>03</span>
-              <h3 className='mt-4 font-bold font-family-sans'>Tulis kode bersih</h3>
-              <p className='mt-2 text-text-muted text-sm'>
-                Implementasi dengan pattern yang konsisten. Naming yang jelas, fungsi yang kecil, dan komentar hanya untuk hal yang benar-benar perlu dijelaskan.
+            <div className="card mt-0 md:mt-12 lg:mt-24 border-2 grid justify-start items-center border-border/50 bg-surface w-full p-6 md:p-8 rounded-2xl hover:bg-accent-soft/90 transition-all duration-300">
+              <span className='text-border font-family-serif text-4xl md:text-6xl italic font-medium'>03</span>
+              <h3 className='mt-4 font-bold font-family-sans text-lg'>Tulis Kode Bersih</h3>
+              <p className='mt-2 text-text-muted text-sm leading-relaxed'>
+                Implementasi dengan pola yang konsisten. Penamaan yang jelas, fungsi yang ringkas, dan komentar hanya untuk hal yang benar-benar perlu dijelaskan.
               </p>
-              <p className='mt-4 bg-accent-soft px-4 py-2 border-2 flex justify-center items-center  border-accent/20 text-accent font-medium rounded-full text-xs'>Pattern · Clean Code · Git</p>
+              <p className='mt-6 bg-accent-soft px-4 py-2 border border-accent/20 text-accent font-medium rounded-full text-[10px] uppercase tracking-wider w-fit'>Pola · Clean Code · Git</p>
             </div>
 
-            <div className="card mt-0 md:mt-12 lg:mt-24 border-2 grid justify-start items-center border-background-secondary bg-surface w-full p-6 md:p-8 rounded-lg hover:bg-accent-soft/90">
-              <span className='text-background-secondary font-family-serif text-4xl md:text-6xl italic font-medium'>04</span>
-              <h3 className='mt-4 font-bold font-family-sans'>Test & Review</h3>
-              <p className='mt-2 text-text-muted text-sm'>
-                Test manual lewat Postman dulu. Minta feedback dari senior atau teman. Kode yang di-review itu lebih baik dari kode yang "merasa" sudah benar.
+            <div className="card mt-0 md:mt-12 lg:mt-24 border-2 grid justify-start items-center border-border/50 bg-surface w-full p-6 md:p-8 rounded-2xl hover:bg-accent-soft/90 transition-all duration-300">
+              <span className='text-border font-family-serif text-4xl md:text-6xl italic font-medium'>04</span>
+              <h3 className='mt-4 font-bold font-family-sans text-lg'>Uji & Tinjau</h3>
+              <p className='mt-2 text-text-muted text-sm leading-relaxed'>
+                Melakukan uji coba manual melalui Postman terlebih dahulu. Meminta umpan balik dari senior atau rekan. Kode yang ditinjau jauh lebih baik daripada kode yang hanya "terasa" sudah benar.
               </p>
-              <p className='mt-4 bg-accent-soft px-4 py-2 border-2 flex justify-center items-center  border-accent/20 text-accent font-medium rounded-full text-xs'>Postman · Feedback · Iterate</p>
+              <p className='mt-6 bg-accent-soft px-4 py-2 border border-accent/20 text-accent font-medium rounded-full text-[10px] uppercase tracking-wider w-fit'>Postman · Feedback · Iterate</p>
             </div>
           </div>
 
@@ -73,10 +73,10 @@ export default function HowToWork() {
                 <span className="absolute bottom-0 left-0 h-1 w-full bg-accent scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-150 ease-out"></span>
               </div>
 
-              <div className="relative group mt-0 md:mt-12 lg:mt-24 border-2 grid justify-start items-center border-background-secondary bg-surface w-full px-6 md:px-8 py-8 md:py-10 rounded-lg hover:-translate-y-2 transition-transform duration-300">
-                <h3 className='mt-4 font-bold font-family-sans'>Baca dokumentasi, bukan tebak</h3>
-                <p className='mt-2 text-text-muted text-sm'>
-                  Saya selalu baca docs resmi Laravel sebelum coba-coba. Paham cara kerja tools itu penting, bukan hanya tahu cara pakainya.
+              <div className="relative group mt-0 md:mt-12 lg:mt-24 border-2 grid justify-start items-center border-border/50 bg-surface w-full px-6 md:px-8 py-8 md:py-10 rounded-2xl hover:-translate-y-2 transition-all duration-300">
+                <h3 className='mt-4 font-bold font-family-sans'>Baca dokumentasi, bukan menebak</h3>
+                <p className='mt-2 text-text-muted text-sm leading-relaxed'>
+                  Saya selalu membaca dokumentasi resmi Laravel sebelum mencoba-coba. Memahami cara kerja alat itu penting, bukan hanya sekadar tahu cara memakainya.
                 </p>
                 <hr className='mt-4 mb-4 border-t flex-1 border-accent border-sm'/>
                 <p className='text-accent italic text-xs font-family-sans'>
@@ -121,10 +121,10 @@ export default function HowToWork() {
                 <span className="absolute bottom-0 left-0 h-1 w-full bg-accent scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-150 ease-out"></span>
               </div>
 
-              <div className="relative group mt-0 md:mt-12 lg:mt-24 border-2 grid justify-start items-center border-background-secondary bg-surface w-full px-6 md:px-8 py-8 md:py-10 rounded-lg hover:-translate-y-2 transition-transform duration-300">
-                <h3 className='mt-4 font-bold font-family-sans'>Belajar dari yang lebih senior</h3>
-                <p className='mt-2 text-text-muted text-sm'>
-                  Saya aktif minta code review, baca kode orang lain, dan tidak malu akui ketika ada yang tidak saya mengerti. Ego tidak punya tempat di sini.
+              <div className="relative group mt-0 md:mt-12 lg:mt-24 border-2 grid justify-start items-center border-border/50 bg-surface w-full px-6 md:px-8 py-8 md:py-10 rounded-2xl hover:-translate-y-2 transition-all duration-300">
+                <h3 className='mt-4 font-bold font-family-sans text-lg'>Belajar dari yang lebih senior</h3>
+                <p className='mt-2 text-text-muted text-sm leading-relaxed'>
+                  Saya aktif meminta peninjauan kode (code review), membaca kode orang lain, dan tidak malu mengakui ketika ada hal yang tidak saya mengerti. Ego tidak memiliki tempat di sini.
                 </p>
                 <hr className='mt-4 mb-4 border-t flex-1 border-accent border-sm'/>
                 <p className='text-accent italic text-xs font-family-sans'>
